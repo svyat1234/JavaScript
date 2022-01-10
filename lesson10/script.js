@@ -12,7 +12,6 @@ book[2].before(book[4])
 book[2].before(book[3])
 book[2].before(book[5])
 
-
 // Заменить картинку заднего фона на другую из папки image
 background.style.backgroundImage = 'url(./image/you-dont-know-js.jpg)'
 
@@ -45,5 +44,8 @@ list[5].append(item[56])
 
 
 // в шестой книге добавить главу “Глава 8: За пределами ES6” и поставить её в правильное место
-newElem.textContent = 'Глава 8: За пределами ES6” и поставить её в правильное место'
-item[26].prepend(newElem)
+newElem.textContent = 'Глава 8: За пределами ES6'
+item[26].before(newElem)
+
+
+
