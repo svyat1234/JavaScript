@@ -18,6 +18,7 @@ btn.addEventListener('click', inputFunc)
 btnSec.style.display = "none"
 
 // 3
+span.textContent = range.value + " %"
 let rangeChange = function () {
     span.textContent = range.value + " %"
     circle.style.height = range.value + "%"
