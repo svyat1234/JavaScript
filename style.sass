@@ -1,0 +1,41 @@
+body 
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+.header
+    height: 50px
+    background-color: rgb(0, 0, 0)
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+.section
+    background-color: rgb(223, 223, 223)
+    height: 100vh
+    border-bottom: 1px solid #000
+    padding-top: 100px
+.container
+    max-width: 1200px
+    width: 100%
+    margin: auto
+.block
+    background-color: rgb(160, 0, 0)
+    width: 100%
+    height: 500px
+
+.button
+    height: 30px
+    width: 100px
+    border: 1px solid black
+    margin-left: 30px
+    cursor: pointer
+    &::hover
+        box-shadow: 0px  0px 5px black
+    &-pr
+        background-color: lightgreen
+    &-se
+        background-color: red
+.buttons
+    margin-top: 30px
+    display: flex
+    justify-content: end
